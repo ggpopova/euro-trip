@@ -1,0 +1,355 @@
+.page-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  width: 1170px;
+  margin: 0 auto;
+  padding-left: 13px;
+  padding-right: 13px;
+  
+
+  @media (max-width: $tablet-width) {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    width: 768px;
+  }
+
+  @media (max-width: $mobile-width) {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin-top: 500px;
+  }
+}
+
+.page-footer__country-block {
+  margin-bottom: 0;
+  padding-left: 0px;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 58px;
+    padding-left: 9px;
+  }
+
+  @media (max-width: $mobile-width) {
+    margin-bottom: 44px;
+    padding: 0;
+  }
+}
+
+.page-footer__heading
+.page-footer__contacts-heading,
+.page-footer__special-offers-heading {
+  font-weight: 600;
+  font-size: 18px;
+  color: $grey-darkest;
+}
+
+.page-footer__special-offers-block {
+  position: relative;
+  grid-column-end: span 1;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -46px;
+    width: 0;
+    height: 180px;
+    border-left: 1px solid #d7d9df;
+  }
+
+  @media (max-width: $tablet-width) {
+    grid-column-end: span 2;
+    margin: 0 auto;
+
+    &::before {
+      top: -32px;
+      left: 0;
+      width: 715px;
+      border: none;
+      border-top: 1px solid #d7d9df;
+    }
+  }
+
+  @media (max-width: $mobile-width) {
+   
+    &::before {
+      top: -31px;
+      left: 0;
+      width: 287px;
+      height: 1px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.page-footer__heading,
+.page-footer__contacts-heading,
+.page-footer__special-offers-heading  {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: $grey-darkest;
+  text-align: left;
+
+  @media (max-width: $mobile-width) {
+    text-align: center;
+  }
+}
+
+.page-footer__heading {
+  text-align: left;
+  
+  @media (max-width: $mobile-width) {
+    margin-right: 11px;
+    margin-bottom: 19px;
+    text-align: center;
+  }
+}
+
+.page-footer__contacts-heading {
+  margin-right: 70px;
+  margin-bottom: 23px;
+  text-align: left;
+  
+  @media (max-width: $tablet-width) {
+    margin-right: 52px;
+    margin-bottom: 22px;
+    padding-left: 0px;
+    padding-right: 12px;
+    text-align: center;
+  }
+
+  @media (max-width: $mobile-width) {
+    margin: 0 auto;
+  }
+}
+
+.page-footer__special-offers-heading  {
+  margin-right: 25px;
+
+  @media (max-width: $tablet-width) {
+    margin-right: 0;
+    text-align: center;
+  }
+}
+
+.page-footer__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: start;
+  column-gap: 11px;
+  width: 368px;
+
+  @media (max-width: $mobile-width) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+    width: 320px;
+  }
+}
+
+.page-footer__contacts-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -66px;
+    height: 190px;
+    width: 0;
+    height: 180px;
+    border-left: 1px solid $border-grey;
+  }
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 45px;
+
+    &::before {
+      left: -50px; 
+    }
+  }
+
+  @media (max-width: $mobile-width) {
+    &::before {
+      top: -31px;
+      right: 0;
+      left: 0;
+      width: 287px;
+      border: none;
+      border-top: 1px solid #d7d9df;
+    }
+  }
+}
+
+.page-footer__country-block-list {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 1px;
+  width: 95px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  @media (max-width: $mobile-width) {
+    align-items: center;
+    width: 134px;
+  }
+}
+
+.page-footer__country-block-list--g {
+  grid-column-start: inherit;
+    grid-column-end: inherit;
+    margin: 0;
+    padding: 0;
+
+  @media (max-width: $mobile-width) {
+    grid-column-start: 1;
+    grid-column-end: span col4-start;
+    margin-top: -3px;
+    margin-right: 0px;
+    padding-right: 27px;
+  }
+}
+
+.page-footer__country-block-item,
+.page-footer__special-offers-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: $grey-lighter;
+  text-align: left;
+  list-style-type: none;
+
+  @media (max-width: $tablet-width) {
+    text-align: center;
+  }
+}
+
+.page-footer__contacts-list {
+  display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    padding-left: 61px;
+    line-height: 42px;
+    justify-items: center;
+    align-items: baseline;
+    margin: 0 auto;
+    list-style-type: none;
+
+  @media (max-width: $mobile-width) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3px;
+    padding: 0;
+    padding-left: 30px;
+  }
+}
+
+.page-footer__contacts-email,
+.page-footer__contacts-phone {
+  color: $button-color;
+  text-decoration: revert;
+  line-height: 16px;
+}
+
+.page-footer__contacts-email {
+  position: relative;
+  margin-right: 0;
+  font-size: 14px;
+  line-height: 17px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 11px;
+    right: 15px;
+    width: 26px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url("../img/icon-letter.svg");
+  }
+
+  @media (max-width: $tablet-width) {
+    margin-right: 112px;
+    &::before {
+      top: -1px;
+      right: 58px;
+    }
+  }
+
+  @media (max-width: $mobile-width) {
+    margin-right: 0;
+
+    &::before {
+      top: -2px;
+      right: 59px;
+    }
+  }
+}
+
+.page-footer__contacts-email-d {
+  display: none;
+
+  @media (max-width: $tablet-width) {
+    display: block;
+  }
+}
+
+.page-footer__contacts-email-name {
+  display: block;
+
+  @media (max-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.page-footer__contacts-phone {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 32px;
+
+}
+
+.page-footer__contacts-svg {
+  margin-right: 35px;
+
+  @media (max-width: $mobile-width) {
+    margin-right: 0;
+  }
+}
+
+
+.page-footer__special-offers-text {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+  @media (max-width: $tablet-width) {
+    padding: 0;
+    width: 715px;
+    
+  }
+
+  @media (max-width: $mobile-width) {
+    width: 319px;
+    padding-left: 3px;
+    padding-right: 21px;
+  }
+}

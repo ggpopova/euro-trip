@@ -1,0 +1,29 @@
+//Global
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: $basic-white;
+  color: $basic-black;
+  font-family: 'Montserrat', 'PT Sans Narrow', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: $basic-black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

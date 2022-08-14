@@ -1,0 +1,24 @@
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 19px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 19px;
+  background-color: $button-color;
+  font-style: normal;
+  font-weight: 500;
+  font-weight: bold;
+  line-height: 12px;
+   font-size: 10px;
+  font-family: 'Montserrat', 'PT Sans Narrow', sans-serif;
+  color: $basic-white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  @media (min-width: $mobile-width) {
+    font-size: 12px;
+  line-height: 15px; 
+   
+  }
+}

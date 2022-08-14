@@ -1,0 +1,146 @@
+.tour-info__block {
+  position: relative;
+  margin-bottom: 199px;
+
+  @media (max-width: $tablet-width) {
+    margin-bottom: 62px;
+  }
+}
+
+.tour-info_sctreet {
+  display: flex;
+}
+
+.tour-info__img {
+  max-width: 100%;
+  margin: 0 auto;
+ 
+  @media (max-width: $mobile-width) {
+    height: 235px;
+  }
+}
+
+.tour-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  @media (max-width: $tablet-width) {
+    margin: 0 auto;
+  }
+}
+
+.tour-info__heading {
+  width: 415px; //36.6%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-bottom: 0;
+  margin-right: 52px;
+  padding: 15.9% 0 2.3%;
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: -1.2px;
+  text-align: left;
+  color: $basic-white;
+  
+  @media (max-width: $tablet-width) {
+    margin: 0 auto;
+    padding-top: 43px;
+    padding-left: 6px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  
+  @media (max-width: $mobile-width) {
+    width: 294px;
+    padding-top: 82px;
+    padding-bottom: 101px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.tour-info__text {
+  width: 376px;
+  margin-top: auto;
+  margin-right: 91px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding: 0;
+  padding-bottom: 33px;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: $basic-white;
+
+  @media (max-width: $tablet-width) {
+    width: 398px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    
+    text-align: center;
+    
+  }
+
+  @media (max-width: $mobile-width) {
+    width: 294px;
+    padding-bottom: 20px;
+    color: $subtitle-color;
+  }
+}
+
+.tour-info__button {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    margin-right: 126px;
+    margin-bottom: 0;
+    width: 340px;
+    height: 75px;
+    padding-left: 41px;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: auto;
+    right: 40px;
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-image: url("../img/icon-down-arrow.svg");
+  }
+
+  @media (max-width: $tablet-width) {
+    justify-content: space-between;
+    width: 250px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 142px;
+
+    &::before {
+      left: 198px;
+    }
+  }
+
+  @media (max-width: $mobile-width) {
+    margin-bottom: 113px;
+
+    &::before {
+      left: 200px;
+    }
+  }
+}
+
+.services__icon-right-arrow-verylong {
+  margin-left: 14px;
+}

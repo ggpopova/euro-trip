@@ -1,0 +1,494 @@
+.country-review {
+  position: relative;
+
+  @media (max-width: $mobile-width) {
+    width: 320px;
+  }
+}
+
+.country-review--a {
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 24px;
+    left: 100px;
+    width: 430px;
+    height: 596px;
+    background-repeat: no-repeat;
+    background-size: 430px auto;
+    background-image: url("../img/photo-7-desktop@1x.jpg");
+  
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/photo-7-desktop@2x.jpg");
+    }
+  }
+
+  @media (max-width: $tablet-width) {
+    &::before {
+      left: 0;
+      width:  768px;
+      height: 415px;
+      margin: 0 auto;
+      margin-bottom: 117px;
+      background-repeat: no-repeat;
+      background-image: url("../img/photo-7-tablet@1x.jpg");
+      background-size: 768px auto;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/photo-7-tablet@2x.jpg");
+      }
+    }
+  }
+
+  @media (max-width: $mobile-width) {
+    &::before {
+      width: 320px;
+      height: 415px;
+      background-repeat: no-repeat;
+      background-size: 320px auto;
+      background-image: url("../img/photo-7-mobile@1x.jpg");
+      background-color: $background-color;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/photo-7-mobile@2x.jpg");
+        background-size: 320px auto;
+      }
+    }
+  }
+}
+
+.country-review--b {
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 24px;
+    left: 100px;
+    width: 430px;
+    height: 596px;
+    background-repeat: no-repeat;
+    background-size: 430px auto;
+    background-image: url("../img/photo-10-desktop@1x.jpg");
+  
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/photo-10-desktop@2x.jpg");
+    }
+  }
+
+  @media (max-width: $tablet-width) {
+    &::before {
+      left: 0;
+      width:  768px;
+      height: 415px;
+      margin: 0 auto;
+      margin-bottom: 117px;
+      background-repeat: no-repeat;
+      background-image: url("../img/photo-10-tablet@1x.jpg");
+      background-size: 768px auto;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/photo-10-tablet@2x.jpg");
+      }
+    }
+  }
+
+  @media (max-width: $mobile-width) {
+    &::before {
+      width: 320px;
+      height: 415px;
+      background-repeat: no-repeat;
+      background-size: 320px auto;
+      background-image: url("../img/photo-10-mobile@1x.jpg");
+      background-color: $background-color;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/photo-10-mobile@2x.jpg");
+        background-size: 320px auto;
+      }
+    }
+  }
+}
+
+
+.country-review--c {
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 24px;
+    left: 100px;
+    width: 430px;
+    height: 596px;
+    background-repeat: no-repeat;
+    background-size: 430px auto;
+    background-image: url("../img/photo-11-desktop@1x.jpg");
+  
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/photo-11-desktop@2x.jpg");
+    }
+  }
+
+  @media (max-width: $tablet-width) {
+    &::before {
+      left: 0;
+      width:  768px;
+      height: 415px;
+      margin: 0 auto;
+      margin-bottom: 117px;
+      background-repeat: no-repeat;
+      background-image: url("../img/photo-11-tablet@1x.jpg");
+      background-size: 768px auto;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/photo-11-tablet@2x.jpg");
+      }
+    }
+  }
+
+  @media (max-width: $mobile-width) {
+    &::before {
+      width: 320px;
+      height: 415px;
+      background-repeat: no-repeat;
+      background-size: 320px auto;
+      background-image: url("../img/photo-11-mobile@1x.jpg");
+      background-color: $background-color;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/photo-11-mobile@2x.jpg");
+        background-size: 320px auto;
+      }
+    }
+  }
+}
+
+.country-review--d {
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 24px;
+    left: 100px;
+    width: 430px;
+    height: 596px;
+    background-repeat: no-repeat;
+    background-size: 430px auto;
+    background-image: url("../img/photo-12-desktop@1x.jpg");
+  
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/photo-12-desktop@2x.jpg");
+    }
+  }
+
+  @media (max-width: $tablet-width) {
+
+    &::before {
+      left: 0;
+      width:  768px;
+      height: 415px;
+      margin: 0 auto;
+      margin-bottom: 117px;
+      background-repeat: no-repeat;
+      background-image: url("../img/photo-12-tablet@1x.jpg");
+      background-size: 768px auto;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/photo-12-tablet@2x.jpg");
+      }
+    }
+  }
+
+  @media (max-width: $mobile-width) {
+
+    &::before {
+      width: 320px;
+      height: 415px;
+      background-repeat: no-repeat;
+      background-size: 320px auto;
+      background-image: url("../img/photo-12-mobile@1x.jpg");
+      background-color: $background-color;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/photo-12-mobile@2x.jpg");
+        background-size: 320px auto;
+      }
+    }
+  }
+}
+
+.country-review--e {
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 24px;
+    left: 100px;
+    width: 430px;
+    height: 596px;
+    background-repeat: no-repeat;
+    background-size: 430px auto;
+    background-image: url("../img/photo-13-desktop@1x.jpg");
+  
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/photo-13-desktop@2x.jpg");
+    }
+  }
+
+  @media (max-width: $tablet-width) {
+    &::before {
+      left: 0;
+      width:  768px;
+      height: 415px;
+      margin: 0 auto;
+      margin-bottom: 117px;
+      background-repeat: no-repeat;
+      background-image: url("../img/photo-123tablet@1x.jpg");
+      background-size: 768px auto;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/photo-13-tablet@2x.jpg");
+      }
+    }
+  }
+
+  @media (max-width: $mobile-width) {
+    &::before {
+      width: 320px;
+      height: 415px;
+      background-repeat: no-repeat;
+      background-size: 320px auto;
+      background-image: url("../img/photo-13-mobile@1x.jpg");
+      background-color: $background-color;
+
+      @media (min-resolution: 2dppx) {
+        background-image: url("../img/photo-13-mobile@2x.jpg");
+        background-size: 320px auto;
+      }
+    }
+  }
+}
+
+.country-review__block {
+  position: absolute;
+  right: 0;
+  top: 75px;
+  left: 102px;
+  width: 382px;
+  margin: 0 auto;
+  margin-top: 65px;
+  margin-left: 318px;
+  padding: 30px 32px 27px 32px;
+  background-color: $basic-white;
+  text-align: center;
+
+  @media (max-width: $tablet-width) {
+    left: 50%;
+    margin: 30px auto 0;
+    padding: 30px 30px 20px;
+  }
+
+  @media (max-width: $mobile-width) {
+    width: 268px;
+    right: 0;
+    left: 0;
+  }
+}
+
+.country-review__heading {
+  position: relative;
+  margin: 0;
+  margin-bottom: 32px;
+  padding: 0;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.7px;
+  text-align: left;
+ 
+  &::before {
+    content: "";
+    position: absolute;
+    top: 48px;
+    right: 0;
+    left: 0;
+    width: 68px;
+    margin-left: 0;
+    color: $subtitle-color;
+    border-bottom: 1px solid $button-color;
+  }
+
+  @media (max-width: $tablet-width) {
+    &::before {
+      top: 49px;
+    }
+  }
+
+  @media (max-width: $mobile-width) {
+    margin-bottom: 33px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    &::before {
+      top: 35px;
+      margin: 0 auto;
+      
+    }
+  }
+}
+
+.country-review__text {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 28px; 
+  color: $grey-darker;
+  letter-spacing: -0.5px;
+  text-align: left;
+
+  @media (max-width: $tablet-width) {
+   margin-bottom: 15px;
+   padding: 0;
+  }
+
+  @media (max-width: $mobile-width) {
+    text-align: center;
+  }
+}
+
+.country-review__commentator {
+  display: flex; 
+
+  @media (max-width: $tablet-width) {
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+
+  @media (max-width: $mobile-width) {
+    justify-content: center;
+    margin-bottom: 6px;
+  }
+}
+
+.country-review__img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0;
+  text-align: left;
+  border: 2px solid white;
+  border-radius: 50%;
+
+  @media (max-width: $mobile-width) {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 4px;
+  }
+}
+
+.country-review__author {
+  position: relative;
+  margin: 0;
+  padding: 11px;
+  padding-left: 54px;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -2px;
+    width: 40px;
+    height: 40px;
+ 
+  }
+
+  @media (max-width: $tablet-width) {
+    padding-left: 14px;
+    text-align: left;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding: 0;
+    padding-top: 54px;
+
+    &::before {
+      left: 40%;
+    }
+  }
+}
+
+.country-review__author--a {
+
+  &::before {
+    background-image: url("../img/photo-9-mobile@1x.jpg");
+    border: 2px solid white;
+    border-radius: 50%;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/photo-9-mobile@1x.jpg");
+      background-size: 40px auto;
+    }
+  }
+
+}
+
+.country-review__author--b {
+
+  &::before {
+    background-image: url("../img/photo-14-desktop@1x.jpg");
+    border: 2px solid white;
+    border-radius: 50%;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/photo-14-mobile@1x.jpg");
+      background-size: 40px auto;
+    }
+  }
+}
+
+.country-review__author--c {
+
+  &::before {
+    background-image: url("../img/photo-15-desktop@1x.jpg");
+    border: 2px solid white;
+    border-radius: 50%;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/photo-15-mobile@1x.jpg");
+      background-size: 40px auto;
+    }
+  }
+}
+
+.country-review__author--d {
+
+  &::before {
+    background-image: url("../img/photo-16-desktop@1x.jpg");
+    border: 2px solid white;
+    border-radius: 50%;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/photo-16-mobile@1x.jpg");
+      background-size: 40px auto;
+    }
+  }
+}
+
+.country-review__author--e {
+
+  &::before {
+    background-image: url("../img/photo-17-desktop@1x.jpg");
+    border: 2px solid white;
+    border-radius: 50%;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/photo-17-mobile@1x.jpg");
+      background-size: 40px auto;
+    }
+  }
+}
